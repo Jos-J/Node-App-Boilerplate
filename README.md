@@ -16,19 +16,24 @@ A clean and modular boilerplate for building scalable Node.js applications using
 
 ## 📁 Project Structure
 ```
-Node-App-Boilerplate/
-├── config/ # DB config, environment setup
-│ └── db.js
-├── controllers/ # Route logic
-│ └── userController.js
-├── models/ # Mongoose models
-│ └── userModel.js
-├── routes/ # Express route definitions
-│ └── userRoutes.js
-├── views/ # Templating (optional)
-├── .env # Environment variables (ignored by Git)
-├── .gitignore # Files/folders to ignore in Git
-├── app.js # Main server entry point
+├── public/              # Static files (CSS, JS, images)
+│   ├── css/
+│   ├── js/
+│   └── images/
+├── src/
+│   ├── config/
+│   │   └── db.js
+│   ├── controllers/
+│   │   └── userController.js
+│   ├── models/
+│   │   └── userModel.js
+│   ├── routes/
+│   │   └── userRoutes.js
+│   ├── views/
+│   └── app.js
+├── .env
+├── .gitignore
+├── server.js
 ├── package.json
 └── README.md
 ```
